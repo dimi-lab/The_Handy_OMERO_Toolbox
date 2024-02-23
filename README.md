@@ -42,3 +42,7 @@ This file is how I can connect to my instance of OMERO without sharing my inform
 4. `Upload meta datatable for single TMA project part 2.ipynb`
 
 	Read data table, previous excel file, identifying single image quality, sort and submit to OMERO, as if it was originally noted there.
+
+5. `Retrieve Points of Annotation from Whole Project.ipynb`
+
+	Loop every dataset, every image in a single project, and record out each image's point annotations, formatted for QuPath points importing. Also will genreate a summary log file, with quick counts on annotation labels.
